@@ -1,87 +1,47 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="UTF-8" />
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <title>sandbox Bootstrap website</title>
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"/> -->
-    <link rel="stylesheet" href="bootstrap.min.css" />
-    <style>
-      * {
-        /* outline: 1px solid red; */
-      }
-
-      .row div {
-        height: ;
-      }
-    </style>
-  </head>
-  <body>
-    <section class="container-fluid">
-      <header class="row bg-primary">
-        <div class="col-3 text-center p-3">
-          <img src="https://via.placeholder.com/100" alt="" class="img-fluid" />
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+<title> KCW</title>
+    <nav class="container-fluid">
+        <div class="row">
+            <header class="col-md-2">
+                <p title="KW"> KCW</p>
+            </header>
+        <div class="col-md-10 pt-2 pb-1 bg-light ml-auto text-lg-right text-center boxshadow">
+            <a class="navbar-brand nav-link text-secondary" href="index.html">About
+            </a>
+            <a class="navbar-brand nav-link text-secondary" href="portfolio.html"
+            >Portfolio</a>
+            <a class="navbar-brand nav-link text-secondary mr-0"
+            href="contact.html" >Contact</a>
         </div>
-        <div class="col-9 text-right">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
-          </p>
         </div>
-      </header>
-
-      <div class="row">
-        <div class="col-md-6 text-center p-3">
-          <img src="https://via.placeholder.com/200" alt="" class="img-fluid" />
-        </div>
-        <div class="col-md-6 text-center">
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio
-            suscipit asperiores enim cupiditate. Amet necessitatibus ipsam,
-            eveniet accusantium cupiditate provident alias blanditiis nihil
-            magni repudiandae eius, possimus nemo consectetur nisi!
-          </p>
-          <button class="btn btn-primary">CLICK ME!</button>
+    </nav>
+</head>
+<body>
+    <div class="card mb-3" style="max-width: 540px;">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="https://images.unsplash.com/photo-1588524594091-77b993b0619f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60" class="card-img" alt="WFH">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">About Me</h5>
+              <p class="card-text">About me text Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus perferendis quae, asperiores temporibus a ut ipsum laborum quidem eius, dolore incidunt totam laboriosam illo nostrum similique! Similique quia qui dolores.</p>
+              <p class="card-text"><small class="text-muted">Learn More!</small></p>
+            </div>
+          </div>
         </div>
       </div>
-
-      <div class="row bg-primary text-light">
-        <div class="col-10 m-auto text-center p-5">
-          <p class="m-0">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, sit!
-          </p>
-        </div>
-      </div>
-
-      <div class="row bg-secondary">
-        <div class="order-2 order-md-1 col-md-6 text-center text-light">
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio
-            suscipit asperiores enim cupiditate. Amet necessitatibus ipsam,
-            eveniet accusantium cupiditate provident alias blanditiis nihil
-            magni repudiandae eius, possimus nemo consectetur nisi!
-          </p>
-          <button class="btn btn-primary">CLICK ME!</button>
-        </div>
-        <div class="order-1 order-md-2 col-md-6 text-center p-3">
-          <img src="https://via.placeholder.com/200" alt="" class="img-fluid" />
-        </div>
-      </div>
-
-      <div class="row bg-danger">
-        <div class="col-4 text-center">
-          <img src="https://via.placeholder.com/100" alt="" class="img-fluid" />
-        </div>
-        <div class="col-4 text-center">
-          <img src="https://via.placeholder.com/100" alt="" class="img-fluid" />
-        </div>
-        <div class="col-4 text-center">
-          <img src="https://via.placeholder.com/100" alt="" class="img-fluid" />
-        </div>
-      </div>
-    </section>
-  </body>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+<footer>
+    <div class="footer">
+        <p> KCW </p>
+    </div>
+</footer>
 </html>
