@@ -1,0 +1,32 @@
+.container-fluid{
+    background-color: blueviolet;
+    font-family: cursive;
+    text-align: center;
+}
+.img-container{
+    position: relative;
+}
+.img-container img{
+    width: 100%;
+}
+.img-container h2 {
+    position: absolute;
+    background-color: cornflowerblue;
+    padding: 1px 1px;
+    width: 100%;
+    text-align: center;
+    bottom: 20px;
+}
+.form-group{
+    position: relative;
+    text-align: left;
+}
+.footer{
+    background-color: aquamarine;
+    left: 0px;
+    bottom: 0px;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+}
