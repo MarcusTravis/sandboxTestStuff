@@ -10,6 +10,7 @@ var div3 = document.createElement("div");
 var text2 = document.createElement("p")
 var div4 = document.createElement("div");
 
+colMid.setAttribute("class", "col-md-6 bg-black text-light text-center pb-bottom")
 body.setAttribute("class", "bg-secondary");
 
 let img = document.createElement("img");
