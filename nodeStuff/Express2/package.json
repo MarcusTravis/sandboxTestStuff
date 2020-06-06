@@ -1,7 +1,8 @@
 {
-  "name": "express1",
+  "name": "express2",
   "version": "1.0.0",
-  "main": "expressServer.js",
+  "description": "",
+  "main": "appUse.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -9,7 +10,5 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
-  },
-  "devDependencies": {},
-  "description": ""
+  }
 }
