@@ -1,0 +1,32 @@
+.pink {
+  background-color: #fcdfe4cc;
+}
+
+.bgImage {
+  background-image: url("../../images/headerimg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 900px) {
+    .bgImage {
+        background-image: url("../../images/headerimg.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: auto;
+      }
+
+      .containerHeight {
+        height: 375px;
+      }
+
+      .height {
+        margin-top: 245px !important;
+      }
+  }
+
+.height {
+  margin-top: 375px;
+}
+
